@@ -5,8 +5,11 @@
     <classes>
       <class name="stepDefinitions.Steps">
         <methods>
+          <include name="datesM"/>
+          <include name="searchM"/>
+          <include name="flyghtClassM"/>
+          <include name="passengersM"/>
           <include name="terminateBrowser"/>
-          <include name="testMethod"/>
           <include name="startDriver"/>
         </methods>
       </class> <!-- stepDefinitions.Steps -->

@@ -19,7 +19,7 @@ public class Mapping {
 	public WebElement roundRadio;
 	
 	@FindBy(xpath = "//select[@id='flight_type']//option[@value='first']")
-	public WebElement flyghtTypeDD;
+	public WebElement flyghtClassDD;
 	
 	@FindBy(xpath = "//input[@id='autocomplete' and @placeholder='Flying From']")
 	public WebElement flyingFromIn;
